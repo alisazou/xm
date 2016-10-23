@@ -6,3 +6,20 @@
     height: 1px;
     margin: 20px 0;
 }
+.finish_jh { font-size:0; display:block; width:10px; height:10px; background:#09F; position:absolute; border-radius:10px; left:50%; margin:0 0 0 -5px; z-index:10; top:0;}
+.finish_sj { font-size:0; display:block; width:10px; height:10px; background:#F93; position:absolute; border-radius:10px; left:50%; margin:0 0 0 -5px; z-index:10; top:0;}
+.finish_cg { font-size:0; display:block; width:10px; height:10px; background:#0C0; position:absolute; border-radius:10px; left:50%; margin:0 0 0 -5px; z-index:10; top:0;}
+.tuli td { padding:0; border:0;}
+.time-line {font-size: 0;display: block;height: 3px;background: #e0e0e0;margin-top: 10px}
+.line-jh{background-color: #09F}
+.line-sj{background-color: #F93}
+.line-cg{background-color: #0C0}
+
+
+
+
+
+.list-table td,  .list-table tr th{
+    padding: 10px 0;
+    border: 1px solid #eee;
+}

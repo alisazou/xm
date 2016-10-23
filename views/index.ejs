@@ -1,13 +1,63 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-  </head>
+<%- include public %>
   <body>
-    	<!--<div id="app"></div>	-->
-  <script type="text/javascript" src="/out/bundle.js"></script>
-  <h1><%= title  %></h1>
-  <button >添加项目</button>
+  <table class="table table-bordered">
+      <thead>
+      <tr>
+          <th>项目名称</th>
+          <th>优先级</th>
+          <th>需求人</th>
+          <th>交互</th>
+          <th>视觉</th>
+          <th>重构</th>
+          <th>时间</th>
+          <th>状态</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+          <td>1</td>
+          <td>p1</td>
+          <td>张三</td>
+          <td>aster</td>
+          <td>gaby</td>
+          <td>alisa</td>
+
+          <td style="vertical-align:top" class="d"><div class="time">
+
+                  <div class="today"></div>
+
+
+                  <div class="time-line line-jh" style="width: 20px"></div>
+
+
+                  <!--<div class="time-line line-jh line-pause"></div>-->
+
+                  <div class="time-line line-sj" style="width: 80px"></div>
+
+
+                  <!--<div class="time-line line-sj line-pause"></div>-->
+
+                  <div class="time-line line-cg" style="width: 100px"></div>
+
+                  <!--<div class="time-line line-cg line-pause"></div>-->
+
+
+                  <span class="finish_jh"></span>
+
+
+                  <span class="finish_sj"></span>
+
+
+                  <span class="finish_cg"></span>
+
+              </div></td>
+          <td>已完成</td>
+      </tr>
+
+
+      </tbody>
+  </table>
+
   </body>
 </html>
 
