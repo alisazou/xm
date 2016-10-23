@@ -6,20 +6,52 @@
     height: 1px;
     margin: 20px 0;
 }
-.finish_jh { font-size:0; display:block; width:10px; height:10px; background:#09F; position:absolute; border-radius:10px; left:50%; margin:0 0 0 -5px; z-index:10; top:0;}
-.finish_sj { font-size:0; display:block; width:10px; height:10px; background:#F93; position:absolute; border-radius:10px; left:50%; margin:0 0 0 -5px; z-index:10; top:0;}
-.finish_cg { font-size:0; display:block; width:10px; height:10px; background:#0C0; position:absolute; border-radius:10px; left:50%; margin:0 0 0 -5px; z-index:10; top:0;}
-.tuli td { padding:0; border:0;}
-.time-line {font-size: 0;display: block;height: 3px;background: #e0e0e0;margin-top: 10px}
-.line-jh{background-color: #09F}
-.line-sj{background-color: #F93}
-.line-cg{background-color: #0C0}
-
-
-
-
-
-.list-table td,  .list-table tr th{
-    padding: 10px 0;
-    border: 1px solid #eee;
+.time-jh{background-color:  #09F;}
+.time-sj{background-color:  #F93;}
+.time-cg{background-color:  #0C0;}
+.time-line {margin-left: 10px;color: #fff;padding: 2px 10px}
+.time-done{color: #e6e6e6}
+.blue{color: #1c84c6}
+.red{color: #ed5565}
+.bg-gray{background-color: #999}
+.bg-red{background-color: #ed5565}
+.mt15 {
+    margin-top: 15px;
 }
+
+/*login */
+.loginscreen.middle-box {
+    width: 300px;
+}
+.middle-box {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.middle-box h1 {
+    font-size: 170px;
+}
+.full-width {
+    width: 100%!important;
+}
+.block {
+    display: block;
+}
+
+.time-done{background-color: #eee;color: #999}
+.time-done .time-line{background-color: #999}
+.time-stop .time-line{background-color: #ed5565;}
+
+/*
+ * 状态标识说明
+ * status[0] == 初始化，无状态
+ * status[1] == 已完成
+ * status[2] == 未开始
+ * status[3] == 进行中
+ * status[4] == 未确认
+ * status[5] == 已确认
+ *
+ */
+
